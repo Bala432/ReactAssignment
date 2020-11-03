@@ -1,0 +1,38 @@
+1.)React is a Javascript Library which is intended for Frond End development of Web. React deals with working with components
+ i.e. Everything in react is a component.
+
+2.)The Features of react are Components,State,JSX, Virtual DOM
+
+3.)JSX can be understood as combination of javascript and Html. It is optional for working in react projects. 
+   Babel compiler is used for conversion of JSX to JS in our projects. 
+
+4.)Element can be defined as any node in our Html document whereas Component can be specified as a part of our Application.
+   We need components to work with elements in our project.
+
+5.)A component in react can be Class Component (or) Functional Component.
+
+   The syntax for creating class components is,
+	class App extends Component{
+		render(){
+			return();
+		}
+	}
+
+   The syntax for creating functional components is,
+	function App(props){
+		render(){
+			return()}
+	}
+	export default App;
+
+6.)When we are working with states, we have to use class component over functional component
+
+7.)A pure component is defined as a component where the outcome will depend only on the arguments regarding the component.
+
+8.)A state is defined as internal data in the component.
+
+9.)A props is defined as data which is passed to another component.other component uses the data by props.attribute9or)props.method
+
+10.)A state is internal definition/data of component whereas props is data coming from outside the component.
+
+	
